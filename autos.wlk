@@ -94,3 +94,11 @@ object intocable {
     method reparar() {enCondiciones = true}
     method velocidadMaxima() = 45
 }
+
+object lambo {
+    var property motor = 110
+    method enCondiciones() = motor > 75
+    method hacerPrueba() {motor * 0.5}
+    method reparar() {motor = 100}
+    method velocidadMaxima() = 320
+}
